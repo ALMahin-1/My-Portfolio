@@ -101,3 +101,57 @@ body {
     text-align: justify;
     margin-bottom: 25px;
 }
+
+.experiences {
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    margin-top: 100px;
+}
+
+.ex-ti {
+    font-size: 55px;
+    margin-left: 65px;
+}
+.exp-area {
+    display: flex;
+    justify-content: center;
+}
+
+.full-stack {
+    width: 39%;
+    margin: 20px;
+    padding: 30px 30px 100px;
+    box-shadow: 2px 2px 30px #0000008e;
+    border-radius: 10px;
+}
+.full-stack h1 {
+    font-size: 45px;
+}
+.full-stack h3 {
+    font-size: 24px;
+    color: #ff2600;
+}
+.full-stack p {
+    font-size: 18px ;
+    line-height: 28px;
+    color: #555353;
+    text-align: justify;
+}
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(#0000ff, #05f6ea);
+    border-image-slice: 1;
+}
+#ful {
+    border-left: 7px solid;
+    border-image: linear-gradient(#ff4800f6, #f62905c9);
+    border-image-slice: 1;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    font-size:18px;
+    color: #3f3f3f;
+}
