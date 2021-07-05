@@ -1,0 +1,41 @@
+@media (max-width: 320px) {    
+    .Intro {
+        position: relative;
+        display: 
+        inline-block;
+    }
+    
+    .img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto ;
+        display: block;
+        margin: 0 55px;
+    }
+
+    .intro-text {
+        margin: 350px auto 0;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .title {
+        width: 140%;
+        
+    }
+    #frist {
+        font-size: 50px;
+    }
+    .title h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+    
+}

@@ -15,7 +15,7 @@ body {
 .Intro {
     background-image: url(Images/top-banner.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     justify-content: center;
 }
@@ -157,10 +157,4 @@ footer{
     text-align: center;
     font-size: 1.8rem;
     color: #3f3f3f;
-}
-
-@media (max-width: 320px) {
-    html {
-        font-size: 3px ;
-    }
 }
