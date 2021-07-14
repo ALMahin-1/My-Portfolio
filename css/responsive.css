@@ -1,26 +1,20 @@
 @media (max-width:767px) {    
     .Intro {
-        position: relative;
-        display:inline-block;
+        flex-direction: column;
     }
     p {
         font-size: 19px;
     }
     .img {
-        position: absolute;
-        top: 0;
-        left: 0;
+        order: 1;
         width: 100%;
-        height: auto ;
-        display: block;
-        margin: 0;
     }
 
     .intro-text {
-        margin: 390px 0 0;
+        margin:50px 0;
         width: 100%;
         text-align: center;
-        
+        order: 2;
     }
     .title-text {
         margin: 0 40px;
